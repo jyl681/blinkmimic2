@@ -1,0 +1,17 @@
+# caches and build output
+.cache/
+__pycache__/
+*.pyc
+build_*.log
+
+# BONES-SEED data (prepared by tools/prepare_bones.py; not redistributable)
+/data
+# training runs: checkpoints, logs
+logs/
+*.pt
+# rendered videos and recorded trajectories (derived from BONES-SEED)
+*.mp4
+*.npz
+results/
+# virtual environment
+.venv/

@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use BlinkMimic 2, please cite it as below."
+title: "BlinkMimic 2: A Whole-Body Tracker for All of BONES-SEED in About 15 Minutes on One GPU"
+authors:
+  - family-names: Li
+    given-names: Jiayu
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/jyl681/blinkmimic2"
+references:
+  - type: software
+    title: "BlinkMimic: Whole-Body Motion Tracking for the Unitree G1 in Minutes on One GPU"
+    authors:
+      - family-names: Chen
+        given-names: Fuyi
+    version: 1.0.0
+    date-released: 2026-11-02
+    repository-code: "https://github.com/fuyichen0725/blinkmimic"
